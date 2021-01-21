@@ -2,10 +2,77 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exemple</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Anthony Bertrand | Développeur web</title>
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut voluptas earum qui perspiciatis dicta nobis itaque! Blanditiis natus enim ratione qui voluptates minima fuga earum nam inventore aperiam sit nostrum beatae cupiditate, at modi, eligendi quasi non sapiente labore nobis corporis maiores. Excepturi veritatis pariatur corrupti eveniet corporis ex cum nesciunt esse quod debitis? Dicta accusantium quod alias nam, voluptatibus quisquam, magni fugit quaerat facere eum architecto aspernatur perspiciatis nobis obcaecati minus assumenda ut minima corrupti quo earum nostrum. Quisquam amet, porro vero facere obcaecati commodi alias labore incidunt delectus et sint perferendis. Accusamus inventore maxime quis doloribus perferendis distinctio.</p>
+  <noscript>
+    Vous aurez besoin d'un navigateur acceptant JavaScript pour visualiser ce site.
+  </noscript>
+  <div id="cursor"></div>
+
+  <div id="loader">
+    0<span>%</span> 
+  </div>
+
+  <div id="spoiler"></div>
+  <h1 style="display: none;">Anthony Bertrand, artiste et développeur</h1>
+  <header id="mainheader">
+    <div class="row">
+      <span>Code</span><span class="main">Développeur</span><span>Conception</span><span>Application</span>
+    </div>
+    <div class="row">
+      <span>Transcripteur</span><span class="main">Artiste</span><span>Musicien</span><span>Vidéaste</span><span>Polyvalent</span>
+    </div>
+    <div class="row">
+      <span>Travail</span><span class="main">Créateur</span><span>Imagination</span><span>Réflexion</span><span>Vision</span>
+    </div>
+  </header>
+
+  <div id="presentation">
+    <h2>Bonjour !</h2>
+    <p>
+      <img src="./img/profile.jpg" alt="Photo de profil">
+      Je m'appelle Anthony et je suis passionné d'audiovisuel depuis très jeune. J'ai principalement expérimenté dans le développement web (voir liste des projets ci-après), mais aussi dans d'autres domaines multimédias que vous retrouverez en scrollant. 
+    </p>
+    <div class="forme carre"></div>
+    <div class="forme triangle"></div>
+  </div>
+
+  <div id="alert">
+    <div class="titre">Oups !</div>
+    <p>Ce contenu n'est pas encore disponible pour les petits écran ! Revenez sur un écran plus large.</p>
+  </div>
+
+  <section id="hobbies">
+    <div class="titles">
+      <ul>
+        <li data-name="devweb" class="devweb active">Développement web</li>
+        <li data-name="uiux" class="uiux">UI/UX Design</li>
+        <li data-name="photovideo" class="photovideo">Photo & Vidéo</li>
+        <li data-name="decouverte" class="decouverte">Découverte</li>
+      </ul>
+    </div>
+
+    <div class="texts">
+      <p class="devweb active">J'aime développer des sites et applications web, <i>from scratch</i> ou plus rarement, épaulé par des frameworks. Je porte une grande attention aux détails (micro-interactions, compatibilité entre navigateurs, temps de chargement, optimisation, apparence et standards de SEO) qui sont ce qui fait la différence, et qui ont un fort impact sur l'expérience utilisateur mis bout-à-bout.</p>
+      <p class="uiux">Designer des interfaces intuitives, pertinentes et significatives pour l'utilisateur relève d'un équilibre complexe que j'aime rechercher lorsque je conçoit une maquette d'application. De même, l'enjeu essentiel des mobiles dans la navigation web implique une recherche de la compatibilité <i>cross-devices</i>.</p>
+      <p class="photovideo">La photo et la vidéo nous entourent sur Internet et les réseaux sociaux, et ils constituent un élément primordial dans la communication d'une marque ou d'un individu. Savoir attirer et retenir l'attention, marquer les esprits, transmettre un message clair et efficace.</p>
+      <p class="decouverte">Par dessus tout ce que j'ai cité au-dessus, j'aime découvrir. Quel que soit le domaine, apprendre de nouvelles techniques, de nouveaux langages, découvrir de nouvelles technologies et de nouveaux moyens d'expression et de création sont la chose la plus importante selon moi.</p>
+    </div>
+
+    <div class="backgrounds">
+      <img src="./img/hb-webdev.jpg" alt="Développement web" class="devweb active">
+      <img src="./img/hb-uiux.jpg" alt="UI/UX Design" class="uiux">
+      <img src="./img/hb-photovideo.jpg" alt="Photo / Vidéo" class="photovideo">
+      <img src="./img/hb-decouverte.jpg" alt="Découvrir" class="decouverte">
+    </div>
+  </section>
+
+  <div id="comingsoon">La suite arrive bientôt...</div>
+
+  <script src="js/app.js"></script>
+  <script src="js/scroll-out.min.js"></script>
 </body>
 </html>

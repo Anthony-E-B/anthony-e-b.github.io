@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "sourceMap": false,
+    "removeComments": true,
+    "noImplicitAny": true,
+    "pretty": false,
+    "target": "ES5",
+    "lib": [ "ES2015", "DOM", "ES2016"]
+  }
+}
